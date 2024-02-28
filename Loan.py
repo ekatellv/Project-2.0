@@ -8,7 +8,9 @@ loan_amount = int(input(ru.SUM_LOAN))
 loan_payment_1 = int(input(ru.F_PAYMENT))
 loan_payment_2 = int(input(ru.S_PAYMENT))
 
-if loan_amount <= 0 or loan_payment_1 <= 0 or loan_payment_2 <= 0 or loan_payment_1 + loan_payment_2 < loan_amount or loan_payment_1 ** 2 + (4 * loan_amount * loan_payment_2 )< 0:
+if loan_amount <= 0 or loan_payment_1 <= 0 or loan_payment_2 <= 0 \
+    or loan_payment_1 + loan_payment_2 < loan_amount \
+    or loan_payment_1 ** 2 + (4 * loan_amount * loan_payment_2 ) < 0:
     print(ru.FALSE_VALUES)
 else:
     # finding solutions to the quadratic equation
