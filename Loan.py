@@ -11,6 +11,8 @@ loan_payment_2 = int(input(ru.S_PAYMENT))
 if loan_amount <= 0 or loan_payment_1 <= 0 or loan_payment_2 <= 0 or loan_payment_1 + loan_payment_2 < loan_amount or loan_payment_1 ** 2 + (4 * loan_amount * loan_payment_2 )< 0:
     print(ru.FALSE_VALUES)
 else:
+    # finding solutions to the quadratic equation
+    # interest_coef = 1 + 0,01 * interest_rate
     interest_coef_1 = (loan_payment_1 + (loan_payment_1 ** 2 + 4 * loan_amount * loan_payment_2) ** 0.5) / (2 * loan_amount)
     interest_coef_2 = (loan_payment_1 - (loan_payment_1 ** 2 + 4 * loan_amount * loan_payment_2) ** 0.5) / (2 * loan_amount)
     interest_rate = round((max(interest_coef_1, interest_coef_2) - 1) * 100, 2)
