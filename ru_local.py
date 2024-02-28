@@ -1,7 +1,10 @@
+<<<<<<< Updated upstream
 # Part of a case-study #2: Credits
 # Developers: Loseva Ekaterina, Shcherbina Ekaterina
 #
 
+=======
+>>>>>>> Stashed changes
 SUM_LOAN = 'Введите сумму кредита:'
 F_PAYMENT = 'Введите сумму первого платежа:'
 S_PAYMENT = 'Введите сумму второго платежа:'
