@@ -11,9 +11,6 @@ def main():
     '''
 
     loan_amount = int(input(ru.SUM_LOAN))
-
-
-
     loan_payment_1 = int(input(ru.F_PAYMENT))
     loan_payment_2 = int(input(ru.S_PAYMENT))
 
