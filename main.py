@@ -20,7 +20,7 @@ def main():
         print(f'{ru.FALSE_VALUES}')
     else:
         # finding solutions to the quadratic equation
-        # interest_coef = 1 + 0,01 * interest_rate
+        # interest_coef = 1 + 0,01 * interest_rate!!!!!111111111dddddd
         interest_coef_1 = (loan_payment_1 + (loan_payment_1 ** 2 + 4 * loan_amount * loan_payment_2) ** 0.5) / (2 * loan_amount)
         interest_coef_2 = (loan_payment_1 - (loan_payment_1 ** 2 + 4 * loan_amount * loan_payment_2) ** 0.5) / (2 * loan_amount)
         interest_rate = round((max(interest_coef_1, interest_coef_2) - 1) * 100, 2)
